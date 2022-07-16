@@ -227,7 +227,7 @@ li {
 }
 
 .works .works-content {
-  background-image: url(../img/works-bg-pc.png);
+  background-image: url(./img/works-bg-pc.png);
   padding-top: 100px;
   padding-bottom: 150px;
 }
@@ -393,7 +393,7 @@ li {
     display: block;
   }
   .works .works-content {
-    background-image: url(../img/works-bg-sp.png);
+    background-image: url(./img/works-bg-sp.png);
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -519,7 +519,7 @@ li {
 }
 
 .merit .merit-content {
-  background-image: url(../img/merit-bg-pc.png);
+  background-image: url(./img/merit-bg-pc.png);
   padding-top: 35px;
   padding-bottom: 80px;
 }
@@ -550,7 +550,7 @@ li {
     display: block;
   }
   .merit .merit-content {
-    background-image: url(../img/merit-bg-sp.png);
+    background-image: url(./img/merit-bg-sp.png);
     padding-bottom: 10px;
   }
   .merit .merit-content .container {
@@ -576,7 +576,7 @@ li {
 }
 
 .flow .flow-content {
-  background-image: url(../img/flow-bg-pc.png);
+  background-image: url(./img/flow-bg-pc.png);
   padding-top: 30px;
   padding-bottom: 50px;
 }
@@ -598,7 +598,7 @@ li {
     display: block;
   }
   .flow .flow-content {
-    background-image: url(../img/flow-bg-sp.png);
+    background-image: url(./img/flow-bg-sp.png);
     padding-top: 5px;
     padding-bottom: 0px;
   }
@@ -618,7 +618,7 @@ li {
 }
 
 .reviews .reviews-content {
-  background-image: url(../img/reviews-bg-sp.png);
+  background-image: url(./img/reviews-bg-sp.png);
 }
 
 .reviews .reviews-content .container {
@@ -688,7 +688,7 @@ li {
     display: block;
   }
   .reviews .reviews-content {
-    background-image: url(../img/reviews-bg-sp.png);
+    background-image: url(./img/reviews-bg-sp.png);
   }
   .reviews .reviews-content .container {
     width: 89.3%;
@@ -871,7 +871,7 @@ li {
 }
 
 .profile .profile-content {
-  background-image: url(../img/profile-bg-pc.png);
+  background-image: url(./img/profile-bg-pc.png);
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -934,7 +934,7 @@ li {
     display: block;
   }
   .profile .profile-content {
-    background-image: url(../img/profile-bg-sp.png);
+    background-image: url(./img/profile-bg-sp.png);
     padding-top: 30px;
     padding-bottom: 35px;
   }
