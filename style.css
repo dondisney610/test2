@@ -632,7 +632,7 @@ li {
   border: 5px #f56e83 solid;
   background-color: #fff;
   border-radius: 10px;
-  padding: 40px 20px 30px;
+  padding: 40px 20px;
   margin-bottom: 100px;
 }
 
@@ -643,23 +643,25 @@ li {
 .reviews .reviews-content .container .reviews-box .reviews-name {
   width: 42%;
   text-align: center;
+  margin-top: 15px;
 }
 
 .reviews .reviews-content .container .reviews-box .reviews-name p {
-  font-size: 30px;
+  font-size: 35px;
+  font-weight: bold;
 }
 
 .reviews .reviews-content .container .reviews-box .reviews-center {
   text-align: center;
   border-top: 3px #c0a054 solid;
   padding-top: 30px;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 40px;
   font-weight: bold;
 }
 
 .reviews .reviews-content .container .reviews-box .reviews-center p {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .reviews .reviews-content .container .reviews-box .youtube {
@@ -706,17 +708,18 @@ li {
   }
   .reviews .reviews-content .container .reviews-box .reviews-name {
     width: 44%;
+    margin-top: 7px;
   }
   .reviews .reviews-content .container .reviews-box .reviews-name p {
-    font-size: 10px;
+    font-size: 12px;
   }
   .reviews .reviews-content .container .reviews-box .reviews-center {
-    padding-top: 20px;
-    margin-top: 20px;
+    padding-top: 15px;
+    margin-top: 15px;
     margin-bottom: 20px;
   }
   .reviews .reviews-content .container .reviews-box .reviews-center p {
-    font-size: 10px;
+    font-size: 14px;
   }
   .reviews .reviews-content .container .reviews-box .youtube iframe {
     width: 100%;
@@ -972,18 +975,11 @@ footer {
   position: relative;
 }
 
-footer ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 55%;
-  margin: 0 auto;
+footer .policy {
+  text-align: center;
 }
 
-footer ul li a {
+footer .policy a {
   color: white;
   font-size: 36px;
   line-height: 178px;
@@ -1001,9 +997,6 @@ footer .facebook a {
 }
 
 @media (max-width: 1250px) {
-  footer ul li a {
-    font-size: 30px;
-  }
   footer .facebook {
     top: 43px;
   }
@@ -1013,12 +1006,6 @@ footer .facebook a {
 }
 
 @media (max-width: 1040px) {
-  footer ul {
-    width: 60%;
-  }
-  footer ul li a {
-    font-size: 24px;
-  }
   footer .facebook {
     top: 55px;
     right: 12%;
@@ -1032,10 +1019,7 @@ footer .facebook a {
   footer {
     height: 50px;
   }
-  footer ul {
-    width: 65%;
-  }
-  footer ul li a {
+  footer .policy a {
     font-size: 12px;
     line-height: 50px;
   }
